@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <title>Local weather api</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="text-center strong">
+          <h1>Local weather API</h1>
+        </div>
+        <div class="row">
+          <div class="weather-app">
+            <div class="col-sm-6">
+              <div class="temperature text-center">
+                <h1><span id="temperature">0</span>&deg</h1>
+                <img class="img-responsive" id="icon" src="img/codes/200.png" alt="Weather Icon">
+              </div>
+              <div class="location text-center text-uppercase strong">
+                <h1><span id="location">Unknown</span></h1>
+              </div>
+            </div><!-- end of left -->
+            <div class="col-sm-6">
+              <div class="bottom">
+                <div class="humidity">
+                  <img class="img-responsive" id="humidityImg" src="img/humidity.png" alt="Humidity">
+                  <h1><span id="humidity">0</span>%</h1>
+                </div>
+              </div>
+              <div class="wind">
+                <h1><span id="wind">0</span> KM/h <span class="small" id="direction">N</span></h1>
+              </div>
+            </div><!-- end of Right -->
+          </div><!-- end of Weather app -->
+        </div><!--end of ROW -->
+      </div><!-- end of CONTAINER-->
+    </div><!-- end of content-wrapper-->
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 70px;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+#icon {
+  width: 115px;
+}
+
+#humidityImg {
+  height: 113px;
+}
+
+#temperature {
+  font-size: 80px;
+}
+
+.temperature {
+    display: flex;
+}
+
+.location {
+    font-size: 18px;
+    width:100%;
+    width:150px;
+}
+
+.humidity {
+    padding: 8px;
+    display: flex;
+}
